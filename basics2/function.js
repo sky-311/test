@@ -21,4 +21,14 @@ const result= add1(23,34)
 function userLogedIn(username){
     return `${username} just logedin` 
 }
-console.log(userLogedIn("aakash"))
+//console.log(userLogedIn("aakash"))
+
+//+++++++++++++REST OPERATOR++++++++++
+function addCartPrice(num){
+return num
+}
+console.log(addCartPrice(200)) //but to add multiple values to the cart we can use rest operator(...)
+function addCartPrice1(...num){
+    return num
+    }
+    console.log(addCartPrice1(200,300,4000,500)) //this rest op. gives the array of the number 
